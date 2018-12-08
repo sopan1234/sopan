@@ -14,7 +14,7 @@ public class AssertDemo
 		assertion.assertEquals(12, 13,"Count doesn't match'");
 		System.out.println("Assert tested");
 		assertion.assertAll();
-		
+		System.out.println("Assert");
 	}
 	@Test
 	public void HardAssertDemo()

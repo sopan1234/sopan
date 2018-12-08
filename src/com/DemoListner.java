@@ -16,6 +16,8 @@ public class DemoListner {
 		wb.get("http://WWW.google.com");
 		System.out.println(wb.getTitle());
 		wb.quit();
+		
+		System.out.println("hi");
 	}
 	@Test
 	public void Dummylistner()
